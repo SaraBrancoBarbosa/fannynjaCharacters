@@ -6,8 +6,7 @@ import Profile from "./pages/profile/Profile";
 import Error from "./pages/error/Error";
 
 const AppRouter = () => {
-  // Définir le basename conditionnellement
-  const basename = import.meta.env.BASE_URL || '/';
+  const basename = import.meta.env.BASE_URL || '/'
 
   return (
     <Router basename={basename}>
