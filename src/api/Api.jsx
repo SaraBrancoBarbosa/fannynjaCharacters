@@ -12,19 +12,19 @@ const useFetchCharacters = () => {
         // Async func inside useEffect
         const loadCharacters = async() => {
             setTimeout(() => {
-                fetch(`${import.meta.env.BASE_URL}/data/characters.json`)
+                fetch(`${import.meta.env.BASE_URL}data/characters.json`)
                 .then(response => {
                     return response.json()
                 })
                 .then(data => {
                     const updatedCharacters = data.charactersList.map(character => ({
                         ...character,
-                        avatar: `${import.meta.env.BASE_URL}${character.avatar}`,  // Ajouter le base URL
-                        cover: `${import.meta.env.BASE_URL}${character.cover}`,    // Ajouter le base URL
-                    }));
+                        avatar: `${import.meta.env.BASE_URL}${character.avatar}`,
+                        cover: `${import.meta.env.BASE_URL}${character.cover}`,
+                    }))
 
-                    setCharactersList(updatedCharacters);
-                    setLoaded(true);
+                    setCharactersList(updatedCharacters)
+                    setLoaded(true)
                 })
                 .catch((error) => {
                     console.log(error)

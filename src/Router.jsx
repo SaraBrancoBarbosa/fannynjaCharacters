@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Layout from "./layouts/Layout";
-import Homepage from "./pages/homepage/Homepage";
-import Characters from "./pages/characters/Characters";
-import Profile from "./pages/profile/Profile";
-import Error from "./pages/error/Error";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import Layout from "./layouts/Layout"
+import Homepage from "./pages/homepage/Homepage"
+import Characters from "./pages/characters/Characters"
+import Profile from "./pages/profile/Profile"
+import Error from "./pages/error/Error"
 
 const AppRouter = () => {
   const basename = import.meta.env.BASE_URL || '/'
@@ -20,7 +20,7 @@ const AppRouter = () => {
         </Route>
       </Routes>
     </Router>
-  );
-};
+  )
+}
 
-export default AppRouter;
+export default AppRouter
