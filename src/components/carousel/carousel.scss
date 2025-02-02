@@ -1,0 +1,70 @@
+@import "../../index";
+
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .arrow {
+        width: 47px;
+        height: 79px;
+        cursor: pointer;
+
+        @include media-phone {
+            width: 30px;
+            height: 30px;
+        }   
+    }
+
+    .arrow-right {
+        transform: scaleX(-1);
+    }
+
+    .indicator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        bottom: 10px;
+        font-size: 1.125rem;
+        background-color: $primary-color;
+        color: white;
+        border-radius: 100px;
+
+        @include media-phone {
+            height: 30px;
+            width: 30px;
+            font-size: 1rem;
+        }   
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    @include media-phone {
+        height: 400px;
+    }
+}

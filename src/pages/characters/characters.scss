@@ -1,0 +1,25 @@
+@import "../../index";
+
+.characters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    .cards-container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        border-radius: 25px;
+        background-color: $primary-color;
+        padding: 50px;
+        gap: 40px 120px;
+        margin-bottom: 50px;
+    
+        @include media-phone {
+            margin: 22px 0px 27px 0;
+            padding: 15px;
+            gap: 20px;
+            grid-template-columns: 1fr;
+        }
+    }
+}

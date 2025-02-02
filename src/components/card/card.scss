@@ -1,0 +1,28 @@
+@import "../../index";
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 100px;
+
+        @include media-phone {
+            column-gap: 26px;
+            font-size: 0.75rem;
+        }
+    }
+
+    figcaption {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.125rem;
+        width: 100%;
+    }
+}

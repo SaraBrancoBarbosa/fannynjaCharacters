@@ -1,0 +1,178 @@
+/***** Variables *****/
+/***** Breakpoints for responsive design *****/
+/***** Base *****/
+* {
+  font-family: Bebas Neue, sans-serif, "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #2D1C12;
+}
+h1::after {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 5px #D7AD7A solid;
+  width: 200px;
+  height: 7px;
+  margin: 0 auto;
+  padding: 2px;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/***** Loading *****/
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #D7AD7A;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 30px 0;
+}
+.loading .spinner {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  -webkit-animation: rotate 2s infinite;
+          animation: rotate 2s infinite;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.carousel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.carousel .image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.carousel .image-container .slide {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.carousel .arrow {
+  width: 47px;
+  height: 79px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .carousel .arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
+.carousel .arrow-right {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+.carousel .indicator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 10px;
+  font-size: 1.125rem;
+  background-color: #D7AD7A;
+  color: white;
+  border-radius: 100px;
+}
+@media screen and (max-width: 768px) {
+  .carousel .indicator {
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+  }
+}
+.carousel .hidden {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    height: 400px;
+  }
+}/*# sourceMappingURL=carousel.css.map */

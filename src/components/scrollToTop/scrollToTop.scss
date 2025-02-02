@@ -1,0 +1,36 @@
+@import "../../index";
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: $tertiary-color;
+    cursor: pointer;
+    border: 0px;
+    z-index: 3;
+
+    &:hover {
+        background-color: $primary-color;
+    }
+
+    img {
+        width: 25px;
+    }
+
+    @include media-phone {
+        bottom: 40px;
+        right: 40px;
+        height: 40px;
+        width: 40px;
+
+        img {
+            width: 20px;
+        }
+    }
+}
