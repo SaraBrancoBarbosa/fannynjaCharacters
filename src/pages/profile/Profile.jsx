@@ -58,7 +58,7 @@ function Profile() {
         return (
         <div className="loading">
             Chargement des informations
-            <img src={`${import.meta.env.BASE_URL}/assets/icons/shuriken-icon.svg`} className="spinner"></img>
+            <img src={`${import.meta.env.BASE_URL}assets/icons/shuriken-icon.svg`} className="spinner"></img>
         </div>
         )
     }

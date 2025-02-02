@@ -28,7 +28,7 @@ function Characters() {
       {/* Loading message */}
       {loading && !error && (
         <div className="loading">Chargement des personnages
-            <img src={`${import.meta.env.BASE_URL}/assets/icons/shuriken-icon.svg`} className="spinner"></img>
+            <img src={`${import.meta.env.BASE_URL}assets/icons/shuriken-icon.svg`} className="spinner"></img>
         </div>   
       )}
 

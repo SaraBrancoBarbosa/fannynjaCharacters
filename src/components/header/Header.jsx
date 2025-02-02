@@ -9,7 +9,7 @@ function Header() {
     return (
         <header className="header">
             <Link to="/">
-                <img className="logo" src={`${import.meta.env.BASE_URL}/assets/logo/logo.png`} alt="Logo du site. Le lien mène à la page d'accueil." />
+                <img className="logo" src={`${import.meta.env.BASE_URL}assets/logo/logo.png`} alt="Logo du site. Le lien mène à la page d'accueil." />
             </Link>
 
             <nav>

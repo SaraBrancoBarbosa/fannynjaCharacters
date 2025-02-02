@@ -10,7 +10,7 @@ const useFetchCharacters = () => {
     useEffect(() => {
         
         // Async func inside useEffect
-        const loadRentals = async() => {
+        const loadCharacters = async() => {
             setTimeout(() => {
                 fetch(`${import.meta.env.BASE_URL}/data/characters.json`)
                 .then(response => {
@@ -40,7 +40,7 @@ const useFetchCharacters = () => {
         setError(null)
         setLoaded(false)
         setLoading(true)
-        loadRentals()
+        loadCharacters()
 
     }, [])
 

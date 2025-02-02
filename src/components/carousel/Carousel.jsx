@@ -29,7 +29,7 @@ const Carousel = ({ pictures }) => {
         <div className="carousel">
 
             {showControls && (
-                <img src={`${import.meta.env.BASE_URL}/assets/icons/Arrow-left.svg`} className={`arrow arrow-left`} onClick={previousSlide} alt="Image précédente" />
+                <img src={`${import.meta.env.BASE_URL}assets/icons/Arrow-left.svg`} className={`arrow arrow-left`} onClick={previousSlide} alt="Image précédente" />
             )}
 
             <div className="image-container">
@@ -39,7 +39,7 @@ const Carousel = ({ pictures }) => {
             </div>
             
             {showControls && (
-                <img src={`${import.meta.env.BASE_URL}/assets/icons/Arrow-left.svg`} className={`arrow arrow-right`} onClick={nextSlide} alt="Image suivante" />
+                <img src={`${import.meta.env.BASE_URL}assets/icons/Arrow-left.svg`} className={`arrow arrow-right`} onClick={nextSlide} alt="Image suivante" />
             )}
 
             {showControls && (
