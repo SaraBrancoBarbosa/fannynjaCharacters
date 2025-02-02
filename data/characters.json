@@ -3,8 +3,8 @@
 		{
 			"id": "zatsu",
 			"name": "Zatsu Akashi",
-            "avatar": "/assets/avatar/Zatsu.png",
-			"cover": "/assets/characters/zatsu/zatsu-design.png",
+            "avatar": "assets/avatar/Zatsu.png",
+			"cover": "assets/characters/zatsu/zatsu-design.png",
 			"age": "Partie I : 15 16 ans, Partie II : 18 20 Ans, L'ère Nouvelle : 35 ans",
 			"birthdate": "14 Avril",
 			"height": "Partie I : 1m79/50kg, Partie II : 1m85/59 kg",
@@ -28,18 +28,18 @@
 				"Il n'aime pas l'odeur de la cigarette et le jus de pomme"
 			],
 			"pictures": [
-				"/assets/characters/zatsu/Aiko-Zatsu.png",
-				"/assets/characters/zatsu/naruto-evolution.png",
-				"/assets/characters/zatsu/zatsu-aiko.png",
-				"/assets/characters/zatsu/naruto-team.png",
-				"/assets/characters/zatsu/Zatsu.jpg"
+				"assets/characters/zatsu/Aiko-Zatsu.png",
+				"assets/characters/zatsu/naruto-evolution.png",
+				"assets/characters/zatsu/zatsu-aiko.png",
+				"assets/characters/zatsu/naruto-team.png",
+				"assets/characters/zatsu/Zatsu.jpg"
 			]
         },
 		{
 			"id": "kaju",
 			"name": "Kâjû Akashi",
-            "avatar": "/assets/avatar/Kaju.png",
-			"cover": "/assets/characters/kaju/kaju-cover.png",
+            "avatar": "assets/avatar/Kaju.png",
+			"cover": "assets/characters/kaju/kaju-cover.png",
 			"age": "Partie I : 12 13ans, Partie II : 15 17 Ans, L’ère Nouvelle : 32 33 ans",
 			"birthdate": "9 Mai",
 			"height": "Partie I : 1m5 6/49kg, Partie II : 1m70/55 kg",
@@ -65,18 +65,18 @@
 				"'Kâjù' signifie 'arbre'"
 			],
 			"pictures": [
-				"/assets/characters/kaju/Kaju-design2.png",
-				"/assets/characters/kaju/Kaju-design3.png",
-				"/assets/characters/kaju/kaju-design.png",
-				"/assets/characters/kaju/kaju.png",
-				"/assets/characters/kaju/Kaju2.png"
+				"assets/characters/kaju/Kaju-design2.png",
+				"assets/characters/kaju/Kaju-design3.png",
+				"assets/characters/kaju/kaju-design.png",
+				"assets/characters/kaju/kaju.png",
+				"assets/characters/kaju/Kaju2.png"
 			]
         },
 		{
 			"id": "nodoka",
 			"name": "Nodoka Usui",
-            "avatar": "/assets/avatar/Nodoka.png",
-			"cover": "/assets/characters/nodoka/nodoka-cover.png",
+            "avatar": "assets/avatar/Nodoka.png",
+			"cover": "assets/characters/nodoka/nodoka-cover.png",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 ans, L’ère Nouvelle : 32 33 ans",
 			"birthdate": "15 Aout",
 			"height": "Partie I : 1m72/47kg, Partie II : 1m75/46kg",
@@ -100,20 +100,20 @@
 				"Elle est droitière mais manipule aussi bien son Katana de sa main gauche que de sa main droite"
 			],
 			"pictures": [
-				"/assets/characters/nodoka/Nodoka-design-2.png",
-				"/assets/characters/nodoka/Nodoka-design-3.png",
-				"/assets/characters/nodoka/Nodoka-design-1.png",
-				"/assets/characters/nodoka/Nodoka.png",
-				"/assets/characters/nodoka/Nodoka2.png",
-				"/assets/characters/nodoka/Croquis1.png",
-				"/assets/characters/nodoka/nodoka-3.jpg"
+				"assets/characters/nodoka/Nodoka-design-2.png",
+				"assets/characters/nodoka/Nodoka-design-3.png",
+				"assets/characters/nodoka/Nodoka-design-1.png",
+				"assets/characters/nodoka/Nodoka.png",
+				"assets/characters/nodoka/Nodoka2.png",
+				"assets/characters/nodoka/Croquis1.png",
+				"assets/characters/nodoka/nodoka-3.jpg"
 			]
         },
 		{
 			"id": "will",
 			"name": "Will Chikyuu",
-            "avatar": "/assets/avatar/Will.png",
-			"cover": "/assets/characters/will/will-design.png",
+            "avatar": "assets/avatar/Will.png",
+			"cover": "assets/characters/will/will-design.png",
 			"age": "Partie I : 14 15 ans, Partie II : 17 19 ans, L’ère Nouvelle : X",
 			"birthdate": "31 décembre",
 			"height": "Partie I : 1m51/43kg, Partie II : 1m65/60kg",
@@ -137,20 +137,20 @@
 				"Will signifie « volonté »"
 			],
 			"pictures": [
-				"/assets/characters/will/Will.jpg",
-				"/assets/characters/will/teamNaruto.png",
-				"/assets/characters/will/RenWill.png",
-				"/assets/characters/will/Ren-Will1.jpg",
-				"/assets/characters/will/Will-Ren1.png",
-				"/assets/characters/will/Will-Makoto.jpg",
-				"/assets/characters/will/Croquis1.png"
+				"assets/characters/will/Will.jpg",
+				"assets/characters/will/teamNaruto.png",
+				"assets/characters/will/RenWill.png",
+				"assets/characters/will/Ren-Will1.jpg",
+				"assets/characters/will/Will-Ren1.png",
+				"assets/characters/will/Will-Makoto.jpg",
+				"assets/characters/will/Croquis1.png"
 			]
         },
 		{
 			"id": "asuka",
 			"name": "Asuka Park",
-            "avatar": "/assets/avatar/Asuka.png",
-			"cover": "/assets/characters/asuka/Asuka1.png",
+            "avatar": "assets/avatar/Asuka.png",
+			"cover": "assets/characters/asuka/Asuka1.png",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 ans, L’ère nouvelle : 32 33 ans",
 			"birthdate": "27 juin",
 			"height": "Partie I : 1m44/59kg, Partie II : 1m62/73kg",
@@ -171,15 +171,15 @@
 				"Elle adore les fruits, particulièrement la pastèque."
 			],
 			"pictures": [
-				"/assets/characters/asuka/Asuka.png",
-				"/assets/characters/asuka/Croquis1.png"
+				"assets/characters/asuka/Asuka.png",
+				"assets/characters/asuka/Croquis1.png"
 			]
         },
 		{
 			"id": "makoto",
 			"name": "Makoto Taiga",
-            "avatar": "/assets/avatar/Makoto.png",
-			"cover": "/assets/characters/makoto/Makoto1.png",
+            "avatar": "assets/avatar/Makoto.png",
+			"cover": "assets/characters/makoto/Makoto1.png",
 			"age": "Partie I : 14 15 ans, Partie II : 17 19 ans, L’ère Nouvelle : 34 ans",
 			"birthdate": "13 Juin",
 			"height": "Partie I : 1m70/75kg, Partie II : 1m86/90kg",
@@ -200,16 +200,16 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/makoto/Makoto.png",
-				"/assets/characters/makoto/Croquis1.png",
-				"/assets/characters/makoto/Will-Makoto.jpg"
+				"assets/characters/makoto/Makoto.png",
+				"assets/characters/makoto/Croquis1.png",
+				"assets/characters/makoto/Will-Makoto.jpg"
 			]
         },
 		{
 			"id": "yuji",
 			"name": "Yuji Wada",
-            "avatar": "/assets/avatar/Yuji.png",
-			"cover": "/assets/characters/yuji/Yuji4.png",
+            "avatar": "assets/avatar/Yuji.png",
+			"cover": "assets/characters/yuji/Yuji4.png",
 			"age": "Partie I : 13 14 ans, Partie II : 16 18 ans, L’ère Nouvelle : 33 34 ans",
 			"birthdate": "8 octobre",
 			"height": "Partie I : 1m53/46kg, Partie II : 1m65/54kg",
@@ -230,19 +230,19 @@
 
 			],
 			"pictures": [
-				"/assets/characters/yuji/Yuji1.png",
-				"/assets/characters/yuji/Yuji2.png",
-				"/assets/characters/yuji/Yuji3.jpg",
-				"/assets/characters/yuji/Yuji5.jpg",
-				"/assets/characters/yuji/Croquis1.png",
-				"/assets/characters/yuji/Fanny66.png"
+				"assets/characters/yuji/Yuji1.png",
+				"assets/characters/yuji/Yuji2.png",
+				"assets/characters/yuji/Yuji3.jpg",
+				"assets/characters/yuji/Yuji5.jpg",
+				"assets/characters/yuji/Croquis1.png",
+				"assets/characters/yuji/Fanny66.png"
 			]
         },
 		{
 			"id": "yova",
 			"name": "Yova Wada",
-            "avatar": "/assets/avatar/Yova.png",
-			"cover": "/assets/characters/yova/Yova3.png",
+            "avatar": "assets/avatar/Yova.png",
+			"cover": "assets/characters/yova/Yova3.png",
 			"age": "Partie I : 14 15 ans, Partie II : 17 19 ans, L’ère Nouvelle : 34 ans",
 			"birthdate": "26 janvier",
 			"height": "Partie I : 1m64,44kg Partie II : 1m73/49kg",
@@ -263,17 +263,17 @@
 				"Ses tatouages représentent en grande partie des fleurs et des constellations"
 			],
 			"pictures": [
-				"/assets/characters/yova/Yova.jpg",
-				"/assets/characters/yova/Yova2.jpg",
-				"/assets/characters/yova/Yova-Shimizu.jpg",
-				"/assets/characters/yova/Croquis1.png"	
+				"assets/characters/yova/Yova.jpg",
+				"assets/characters/yova/Yova2.jpg",
+				"assets/characters/yova/Yova-Shimizu.jpg",
+				"assets/characters/yova/Croquis1.png"	
 			]
         },
 		{
 			"id": "chizuru",
 			"name": "Chizuru Okai",
-            "avatar": "/assets/avatar/Chizuru.png",
-			"cover": "/assets/characters/chizuru/Chizuru.png",
+            "avatar": "assets/avatar/Chizuru.png",
+			"cover": "assets/characters/chizuru/Chizuru.png",
 			"age": "Partie I : 13 14 ans, Partie II : 16 18 ans, L’ère Nouvelle : 33 34 ans",
 			"birthdate": "17 Septembre",
 			"height": "Partie I : 1m56/46kg, Partie II : 1m67/53kg",
@@ -294,16 +294,16 @@
 	
 			],
 			"pictures": [
-				"/assets/characters/chizuru/Chizuru1.jpg",
-				"/assets/characters/chizuru/Chizuru2.png",
-				"/assets/characters/chizuru/Croquis1.png"
+				"assets/characters/chizuru/Chizuru1.jpg",
+				"assets/characters/chizuru/Chizuru2.png",
+				"assets/characters/chizuru/Croquis1.png"
 			]
         },
 		{
 			"id": "sam",
 			"name": "Sam Hudgens",
-            "avatar": "/assets/avatar/Sam.png",
-			"cover": "/assets/characters/sam/Croquis1.png",
+            "avatar": "assets/avatar/Sam.png",
+			"cover": "assets/characters/sam/Croquis1.png",
 			"age": "Partie I : 14 15 ans, Partie II : 17 19 ans, L’ère Nouvelle : 34 ans",
 			"birthdate": "5 septembre",
 			"height": "Partie I : 1m73/55kg, Pa rtie II : 1m85/73kg",
@@ -324,15 +324,15 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/sam/Sam.jpg",
-				"/assets/characters/sam/Fanny64.png"
+				"assets/characters/sam/Sam.jpg",
+				"assets/characters/sam/Fanny64.png"
 			]
         },
 		{
 			"id": "enzo",
 			"name": "Enzo Ikuta",
-            "avatar": "/assets/avatar/Enzo.png",
-			"cover": "/assets/characters/enzo/Croquis1.png",
+            "avatar": "assets/avatar/Enzo.png",
+			"cover": "assets/characters/enzo/Croquis1.png",
 			"age": "Partie I :12 13 ans, Partie II : 15 17 ans, l’ère Nouvelle : 32 33 ans",
 			"birthdate": "20 février",
 			"height": "Partie I : 1m69/40kg, Partie II : 1m80/60kg",
@@ -353,14 +353,14 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/enzo/Enzo.jpg"
+				"assets/characters/enzo/Enzo.jpg"
 			]
         },
 		{
 			"id": "mathis",
 			"name": "Mathis Richard",
-            "avatar": "/assets/avatar/Mathis.png",
-			"cover": "/assets/characters/mathis/Mathis.png",
+            "avatar": "assets/avatar/Mathis.png",
+			"cover": "assets/characters/mathis/Mathis.png",
 			"age": "Partie I : 13 14 ans, Partie II : 16 18 ans, L’ère Nouvelle : 34 ans",
 			"birthdate": "28 août",
 			"height": "Partie I : 1m78/60kg, Partie II : 1m83/68kg",
@@ -381,16 +381,16 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/mathis/Mathis-Ayake.jpg",
-				"/assets/characters/mathis/Croquis1.png",
-				"/assets/characters/mathis/Mathis-Gaby.png"
+				"assets/characters/mathis/Mathis-Ayake.jpg",
+				"assets/characters/mathis/Croquis1.png",
+				"assets/characters/mathis/Mathis-Gaby.png"
 			]
         },
 		{
 			"id": "shimizu",
 			"name": "Shimizu Sawasa",
-            "avatar": "/assets/avatar/Shimizu.png",
-			"cover": "/assets/characters/shimizu/Shimizu.png",
+            "avatar": "assets/avatar/Shimizu.png",
+			"cover": "assets/characters/shimizu/Shimizu.png",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 ans, l’ère Nouvelle : 32 33 ans",
 			"birthdate": "29 juillet",
 			"height": "Partie I : 1m53, 43kg, Partie II : 1m68, 46 kg",
@@ -414,18 +414,18 @@
 				"Elle adore les chats"
 			],
 			"pictures": [
-				"/assets/characters/shimizu/Shimizu2.png",
-				"/assets/characters/shimizu/Fanny62.png",
-				"/assets/characters/shimizu/Croquis1.png",
-				"/assets/characters/shimizu/shimizu3.jpg",
-				"/assets/characters/shimizu/Yova-Shimizu.jpg"
+				"assets/characters/shimizu/Shimizu2.png",
+				"assets/characters/shimizu/Fanny62.png",
+				"assets/characters/shimizu/Croquis1.png",
+				"assets/characters/shimizu/shimizu3.jpg",
+				"assets/characters/shimizu/Yova-Shimizu.jpg"
 			]
         },
 		{
 			"id": "ayake",
 			"name": "Ayake Suzuki",
-            "avatar": "/assets/avatar/Ayake.png",
-			"cover": "/assets/characters/ayake/Ayake.jpg",
+            "avatar": "assets/avatar/Ayake.png",
+			"cover": "assets/characters/ayake/Ayake.jpg",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 an s, l’ère Nouvelle : 32 33 ans",
 			"birthdate": "9 mars",
 			"height": "Partie I : 1m48,5/62kg, Partie II : 1m65/70kg",
@@ -446,17 +446,17 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/ayake/Ayake-Ayako.png",
-				"/assets/characters/ayake/Croquis1.png",
-				"/assets/characters/ayake/Mathis-Ayake.jpg",
-				"/assets/characters/ayake/ayake-ayako2.jpg"
+				"assets/characters/ayake/Ayake-Ayako.png",
+				"assets/characters/ayake/Croquis1.png",
+				"assets/characters/ayake/Mathis-Ayake.jpg",
+				"assets/characters/ayake/ayake-ayako2.jpg"
 			]
         },
 		{
 			"id": "ayako",
 			"name": "Ayako Suzuki",
-            "avatar": "/assets/avatar/Ayako.png",
-			"cover": "/assets/characters/ayako/Ayako.png",
+            "avatar": "assets/avatar/Ayako.png",
+			"cover": "assets/characters/ayako/Ayako.png",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 ans, L’ère Nouvelle : 32 33 ans",
 			"birthdate": "9 mars",
 			"height": "Partie I : 1m51/40kg, Partie II : 1m68/44kg",
@@ -477,16 +477,16 @@
 				"Ayako aime tous les arts existant dans le monde Shinobi"
 			],
 			"pictures": [
-				"/assets/characters/ayako/Ayake-Ayako.png",
-				"/assets/characters/ayako/Croquis1.png",
-				"/assets/characters/ayako/ayake-ayako1.jpg"
+				"assets/characters/ayako/Ayake-Ayako.png",
+				"assets/characters/ayako/Croquis1.png",
+				"assets/characters/ayako/ayake-ayako1.jpg"
 			]
         },
 		{
 			"id": "ayaka",
 			"name": "Ayaka Suzuki",
-            "avatar": "/assets/avatar/Ayaka.png",
-			"cover": "/assets/characters/ayaka/Ayaka.jpg",
+            "avatar": "assets/avatar/Ayaka.png",
+			"cover": "assets/characters/ayaka/Ayaka.jpg",
 			"age": "Partie I : 12 13 ans, Partie II : 15 17 ans, l’ère Nouvelle : 32 33 an ",
 			"birthdate": "9 mars",
 			"height": "Partie I : 1m46, 54kg Partie II : 1m63, 56kg",
@@ -507,14 +507,14 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/ayaka/Croquis1.png"
+				"assets/characters/ayaka/Croquis1.png"
 			]
         },
 		{
 			"id": "myoke",
 			"name": "Myoke Suzuki",
-            "avatar": "/assets/avatar/Myoke.png",
-			"cover": "/assets/characters/myoke/Myoke.png",
+            "avatar": "assets/avatar/Myoke.png",
+			"cover": "assets/characters/myoke/Myoke.png",
 			"age": "Partie I : X, Partie II : X, l’ère Nouvelle : 12 13 ans",
 			"birthdate": "8 novembre",
 			"height": "Partie I : X, Partie II : X, L’ère Nouvelle : 1m46/39kg",
@@ -535,18 +535,18 @@
 				
 			],
 			"pictures": [
-				"/assets/characters/myoke/boruto1.png",
-				"/assets/characters/myoke/Myoke-Shiobo-Yumi1.png",
-				"/assets/characters/myoke/Myoke.jpg",
-				"/assets/characters/myoke/Myoke1.jpg",
-				"/assets/characters/myoke/TeamAyake.png"
+				"assets/characters/myoke/boruto1.png",
+				"assets/characters/myoke/Myoke-Shiobo-Yumi1.png",
+				"assets/characters/myoke/Myoke.jpg",
+				"assets/characters/myoke/Myoke1.jpg",
+				"assets/characters/myoke/TeamAyake.png"
 			]
         },
 		{
 			"id": "shiobo",
 			"name": "Shiobo Akashi",
-            "avatar": "/assets/avatar/Shiobo.png",
-			"cover": "/assets/characters/shiobo/Shiobo.png",
+            "avatar": "assets/avatar/Shiobo.png",
+			"cover": "assets/characters/shiobo/Shiobo.png",
 			"age": "Partie I : X, Partie II : X, L’ère Nouvelle : 12 13 ans",
 			"birthdate": "12 Décembre",
 			"height": "Partie I : X, Partie II : X, L’ère Nouvelle : 1m52/44k g",
@@ -568,11 +568,11 @@
 				"Yumi est sa soeur jumelle."
 			],
 			"pictures": [
-				"/assets/characters/shiobo/Yumi-Shiobo.jpg",
-				"/assets/characters/shiobo/Shiobo-Yumi.png",
-				"/assets/characters/shiobo/boruto1.png",
-				"/assets/characters/shiobo/TeamAyake.png",
-				"/assets/characters/shiobo/Myoke-Shiobo-Yumi1.png"
+				"assets/characters/shiobo/Yumi-Shiobo.jpg",
+				"assets/characters/shiobo/Shiobo-Yumi.png",
+				"assets/characters/shiobo/boruto1.png",
+				"assets/characters/shiobo/TeamAyake.png",
+				"assets/characters/shiobo/Myoke-Shiobo-Yumi1.png"
 			]
         }
 	]
