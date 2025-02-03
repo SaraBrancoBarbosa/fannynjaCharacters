@@ -24,7 +24,7 @@ function ScrollToTop() {
     }
 
   return (
-    <div>
+    <>
         {scrollToTopBtn && (
             <button 
                 className="button"
@@ -34,8 +34,7 @@ function ScrollToTop() {
                 
             </button>
         )}
-      
-    </div>
+    </>
   )
 }
 
