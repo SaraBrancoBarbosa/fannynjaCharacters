@@ -102,6 +102,11 @@ a:hover {
           flex-direction: column;
   gap: 30px;
 }
+@media screen and (max-width: 768px) {
+  .characters-container {
+    gap: 0;
+  }
+}
 .characters-container .cards-container {
   display: grid;
   justify-items: center;

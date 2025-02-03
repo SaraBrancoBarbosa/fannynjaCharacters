@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    @include media-phone {
+        gap: 0;
+    }
     
     .cards-container {
         display: grid;

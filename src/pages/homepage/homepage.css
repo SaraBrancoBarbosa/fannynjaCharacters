@@ -108,6 +108,7 @@ a:hover {
   .main-container {
     gap: 30px;
     padding-bottom: 25px;
+    padding-top: 0;
   }
 }
 .main-container h2 {
