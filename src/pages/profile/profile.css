@@ -25,7 +25,7 @@ h1::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 5px #D7AD7A solid;
+  border-bottom: 5px #E3C5A0 solid;
   width: 200px;
   height: 7px;
   margin: 0 auto;
@@ -58,7 +58,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #D7AD7A;
+  color: #E3C5A0;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 30px 0;
@@ -146,7 +146,8 @@ a:hover {
   width: 100%;
   padding: 30px 50px;
   background-color: #F7EFE5;
-  border-radius: 25px;
+  border-radius: 5px;
+  border: #E3C5A0 2px dotted;
 }
 @media screen and (max-width: 768px) {
   .container .text-content-container .short-info {

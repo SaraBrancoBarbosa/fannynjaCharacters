@@ -41,7 +41,8 @@
             width: 100%;
             padding: 30px 50px;
             background-color: $secondary-color;
-            border-radius: 25px;
+            border-radius: 5px;
+            border: $primary-color 2px dotted;
 
             @include media-phone {        
                 grid-template-columns: 1fr;

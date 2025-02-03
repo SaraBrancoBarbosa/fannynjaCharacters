@@ -4,6 +4,7 @@ import useFetchCharacters from "../../api/Api"
 import { useEffect, useState } from "react"
 import Carousel from "../../components/carousel/Carousel"
 import ScrollToTop from "../../components/scrollToTop/ScrollToTop"
+import Collapse from "../../components/collapse/Collapse"
 
 function Profile() {
 
@@ -12,8 +13,8 @@ function Profile() {
     const {id} = useParams()
     const [profile, setProfile] = useState(null)
 
-    // Each character has its color
-    const colorMapping = {
+    // Each character has its title color
+    const titleColorMapping = {
         zatsu: "#FF0000",
         kaju: "#5B9BD5",
         nodoka:"#009999",
@@ -63,8 +64,8 @@ function Profile() {
         )
     }
 
-  // Using the characters' colors once the id are found
-    const headingColor = colorMapping[profile.id] || "black"
+  // Using the characters' colors once the id is found (if not, black)
+    const headingColor = titleColorMapping[profile.id] || "black"
 
     // Story section: managing and displaying the different parts
     const displayStoryPart = (subtitle, part) => {
@@ -79,7 +80,7 @@ function Profile() {
         )
     }
 
-    // Managing the biggest sections
+    // Managing the biggest sections (in the collapses)
     const sections = [
         { label: "Nature du chakra, techniques", value: profile.chakra },
         { label: "Personnalité", value: profile.personnality },
@@ -118,6 +119,7 @@ function Profile() {
 
             <div className="text-content-container">
 
+                {/* The first section with the short info */}
                 <div className="short-info">
                     {[
                         { label: "Âge", value: profile.age },
@@ -136,12 +138,11 @@ function Profile() {
                     ))}
                 </div>
 
-                {/* To display only the sections with texts */}
+                {/* The biggests sections in the collapses. Displays only the sections with texts */}
                 {validSections.map((section, index) => (
-                    <div className="bloc-container" key={index}>
+                    <Collapse className="bloc-container" key={index} title={section.label} style={{ color: headingColor }}>
                         
                         <div className="text-content">
-                            <h3 style={{ color: headingColor }}>{section.label} :&nbsp;</h3>
                             {typeof section.value === "string" ? (
                                 section.value.split('\n').map((text, textIndex) => (
                                     <p key={textIndex}>{text}<br /></p>
@@ -151,7 +152,7 @@ function Profile() {
                             )}
                         </div>
 
-                    </div>
+                    </Collapse>
                 ))}
             </div>
 
