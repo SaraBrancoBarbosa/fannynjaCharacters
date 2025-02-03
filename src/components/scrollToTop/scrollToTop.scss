@@ -11,12 +11,12 @@
     width: 40px;
     border-radius: 100px;
     background-color: $tertiary-color;
+    border: solid 1px $primary-color;
     cursor: pointer;
-    border: 0px;
     z-index: 3;
 
     &:hover {
-        background-color: $primary-color;
+        background-color: $secondary-color;
     }
 
     img {
