@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { HashRouter  as Router, Route, Routes } from "react-router-dom"
 import Layout from "./layouts/Layout"
 import Homepage from "./pages/homepage/Homepage"
 import Characters from "./pages/characters/Characters"
@@ -6,10 +6,9 @@ import Profile from "./pages/profile/Profile"
 import Error from "./pages/error/Error"
 
 const AppRouter = () => {
-  const basename = import.meta.env.BASE_URL || '/'
 
   return (
-    <Router basename={basename}>
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />

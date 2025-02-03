@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import "./footer.css"
 
-const logoDA = `${import.meta.env.BASE_URL}assets/icons/logo-da.svg`
-const logoYoutube = `${import.meta.env.BASE_URL}assets/icons/logo-youtube.svg`
-const logoTwitch = `${import.meta.env.BASE_URL}assets/icons/logo-twitch.svg`
-const logoInsta = `${import.meta.env.BASE_URL}assets/icons/logo-instagram.svg`
-const logoTumblr = `${import.meta.env.BASE_URL}assets/icons/logo-tumblr.svg`
+const logoDA = "assets/icons/logo-da.svg"
+const logoYoutube = "assets/icons/logo-youtube.svg"
+const logoTwitch = "assets/icons/logo-twitch.svg"
+const logoInsta = "assets/icons/logo-instagram.svg"
+const logoTumblr = "assets/icons/logo-tumblr.svg"
 
 function Footer() {
     return (

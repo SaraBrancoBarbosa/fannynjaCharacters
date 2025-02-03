@@ -30,7 +30,7 @@ function ScrollToTop() {
                 className="button"
                 onClick={scrollUp}
             >
-                <img src={`${import.meta.env.BASE_URL}assets/icons/chevron.svg`}></img>
+                <img src="assets/icons/chevron.svg"></img>
                 
             </button>
         )}
