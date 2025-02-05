@@ -62,6 +62,10 @@ a:hover {
     font-weight: bold;
     padding: 30px 0;
 
+    @include media-phone {
+        font-size: 1.1rem;
+    }
+
     .spinner {
         width: 30px;
         height: 30px;

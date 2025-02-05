@@ -32,7 +32,7 @@
         z-index: 2;
 
         @include media-phone {
-            height: 30px;
+            text-align: start;
             padding: 0 20px;
         }
 
