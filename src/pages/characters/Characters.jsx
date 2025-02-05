@@ -17,7 +17,6 @@ function Characters() {
     }
   }, [error, navigate])
 
-  
   return (
     <div className="characters-container">
 

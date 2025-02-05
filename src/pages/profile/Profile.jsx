@@ -54,6 +54,11 @@ function Profile() {
         }
     }, [loaded, charactersList, id, navigate])
 
+    // To load at the top of the page after render
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     // Loading message
     if (loading || !profile) {
         return (
