@@ -12,8 +12,11 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
-          <Route path="characters" element={<Characters />} />
-          <Route path="characters/profile/:id" element={<Profile />} />
+          <Route path="characters">
+            <Route index element={<Characters />} />
+            <Route path="profile/:id" element={<Profile />} />
+            <Route path="*" element={<Error />} />
+          </Route>
           <Route path="error" element={<Error />} />
           <Route path="*" element={<Error />} />
         </Route>
