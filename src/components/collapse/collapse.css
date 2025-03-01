@@ -142,7 +142,7 @@ a:hover {
   padding: 0px 50px;
   border-radius: 5px;
   background-color: #F7EFE5;
-  border: #E3C5A0 2px dotted;
+  border: #E3C5A0 2px;
   z-index: 2;
 }
 @media screen and (max-width: 768px) {

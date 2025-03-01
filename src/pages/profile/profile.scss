@@ -30,6 +30,7 @@
             font-size: 1.1rem;
             text-indent: 20px;
             text-align: justify;
+            color: #3b3232;
         }
 
         .short-info {
@@ -42,7 +43,7 @@
             padding: 30px 50px;
             background-color: $secondary-color;
             border-radius: 5px;
-            border: $primary-color 2px dotted;
+            border: $primary-color 2px;
 
             @include media-phone {        
                 grid-template-columns: 1fr;

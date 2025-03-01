@@ -28,7 +28,7 @@
         padding: 0px 50px;
         border-radius: 5px;
         background-color: $secondary-color;
-        border: $primary-color 2px dotted;
+        border: $primary-color 2px;
         z-index: 2;
 
         @include media-phone {
