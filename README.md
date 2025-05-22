@@ -1,9 +1,11 @@
+![Logo du site Fannynja.](/public/assets/logo/logo.png)
+
 # Les personnages de Fannynja
+Ceci est un projet personnel, réalisé pour une amie. <br>
+Ce site permet d'explorer des fiches de personnages de façon dynamique. <br>
+J'ai pu m'entraîner sur la création d'animations et sur l'utilisation de différents composants.
 
-Ceci est un projet personnel. <br>
-J'ai utilisé React Vite, React Router, Sass.<br><br>
-
-Avec ce projet, j'ai pu explorer un peu plus React et manipuler de nouveaux composants.<br>
-J'ai aussi testé certaines choses avec git et GitHub pour dépasser ma peur de l'outil. Puisque ce projet est personnel, je peux me permettre des erreurs plus complexes pour pouvoir comprendre leur fonctionnement.<br><br>
-
-Lien vers le site déployé : https://sarabrancobarbosa.github.io/fannynjaCharacters/
+## Les technologies utilisées
+- React (Vite)
+- Router
+- Sass
